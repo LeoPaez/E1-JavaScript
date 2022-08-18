@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo"><span class="t-verde">Pizzeria</span> de la <span class="t-rojo">Nonna</span></h1>
+        <h2 class="subtitulo">¡Las mejores pizzas del <span class="tachado">mundo</span> universo!</h2>
+    </div>
+    <script src="/script.js"></script>
+    <style>
+        body {
+            background-color: burlywood;
+            font-family: sans-serif;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 40vh;
+        }
+        .titulo {
+            font-size: 60px;
+            color: white;
+        }
+        .t-verde {
+            color: green;
+        }
+        .t-rojo {
+            color: red;
+        }
+        .subtitulo {
+            font-size: 30px;
+            color: orangered;
+        }
+        .tachado {
+            text-decoration: line-through;
+        }
+    </style>
+</body>
+</html>
